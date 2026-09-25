@@ -121,7 +121,6 @@ PRODUCT_PACKAGES += \
     lib-imsrcscmclient \
     lib-imsrcscmservice \
     lib-imss \
-    lib-imsvt \
     lib-imsxml \
     lib-rcsimssjni \
     lib-rcsjni \

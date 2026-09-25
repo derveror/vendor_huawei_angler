@@ -136,7 +136,6 @@ vendor/lib/lib-imsrcscm.so	vendor/lib/lib-imsrcscm.so	853903eb1bbcd76db405d7dcc3
 vendor/lib/lib-imsrcscmclient.so	vendor/lib/lib-imsrcscmclient.so	689b7c1ce8ba5c671540323acb61b7741870881339c5fad1b0e2e3adcdd3ba29	83496	ELF	ELF32	ARM	Huawei official driver vendor.img; OPM7.181205.001	none
 vendor/lib/lib-imsrcscmservice.so	vendor/lib/lib-imsrcscmservice.so	0f48df29fb21ef18fcefbd35081b4486fcc26ba7b659775238bf236c6ed0e06b	63016	ELF	ELF32	ARM	Huawei official driver vendor.img; OPM7.181205.001	none
 vendor/lib/lib-imss.so	vendor/lib/lib-imss.so	4ef475d2f0bc3421e2e14fb27548689afd3ad8ed3bb5fba6e237dcd29b10ff7e	21948	ELF	ELF32	ARM	Huawei official driver vendor.img; OPM7.181205.001	none
-vendor/lib/lib-imsvt.so	vendor/lib/lib-imsvt.so	fd51ed5922ca3cb0011f15c65f539c17eecad9ca0adef180213c462e4676a340	362164	ELF	ELF32	ARM	Huawei official driver vendor.img; OPM7.181205.001	none
 vendor/lib/lib-imsxml.so	vendor/lib/lib-imsxml.so	3901e6964fcf158272e28336875c8b821fb0ac42ff9f98fe45eb3a8c071d37e1	589384	ELF	ELF32	ARM	Huawei official driver vendor.img; OPM7.181205.001	none
 vendor/lib/lib-rcsimssjni.so	vendor/lib/lib-rcsimssjni.so	1cbe93c6fb487ec8016b1ebcd5fa6fef5f7e7682776255814a8a37ec76c16113	38332	ELF	ELF32	ARM	Huawei official driver vendor.img; OPM7.181205.001	none
 vendor/lib/lib-rcsjni.so	vendor/lib/lib-rcsjni.so	4421b87b35e52080622031fd41a4310fe99069f344ac7877647de46314c3619e	239036	ELF	ELF32	ARM	Huawei official driver vendor.img; OPM7.181205.001	none
@@ -367,7 +366,6 @@ vendor/lib64/lib-imsrcscm.so	vendor/lib64/lib-imsrcscm.so	910cfc05905357c5ebea87
 vendor/lib64/lib-imsrcscmclient.so	vendor/lib64/lib-imsrcscmclient.so	d85f763b6b3f1645d2856d13724808d04ba2280525fcd68905a84d4ba2369abb	153296	ELF	ELF64	AArch64	Huawei official driver vendor.img; OPM7.181205.001	none
 vendor/lib64/lib-imsrcscmservice.so	vendor/lib64/lib-imsrcscmservice.so	4fe08083b06f0d6f6992dae090536b6c937fc1e0acd3d326f149bf5e3d2b0f07	87760	ELF	ELF64	AArch64	Huawei official driver vendor.img; OPM7.181205.001	none
 vendor/lib64/lib-imss.so	vendor/lib64/lib-imss.so	846be38d86e822793889ac1cf24fa5b9451cec1571ae5538c203d66a64ad707a	17976	ELF	ELF64	AArch64	Huawei official driver vendor.img; OPM7.181205.001	none
-vendor/lib64/lib-imsvt.so	vendor/lib64/lib-imsvt.so	4f800c70d6beea59f93c5bbb09b40d94ed43e8a5acdf44a418bf6fa4e69f84fd	501608	ELF	ELF64	AArch64	Huawei official driver vendor.img; OPM7.181205.001	none
 vendor/lib64/lib-imsxml.so	vendor/lib64/lib-imsxml.so	359970510e3889a885cd0e29da00818e1dd942c4d3441a8ce0713392c1345b0e	941784	ELF	ELF64	AArch64	Huawei official driver vendor.img; OPM7.181205.001	none
 vendor/lib64/lib-rcsimssjni.so	vendor/lib64/lib-rcsimssjni.so	5aaf93fed049e4eca5d07ac57deb313175352e5190c249e93258461ffbd25e94	38456	ELF	ELF64	AArch64	Huawei official driver vendor.img; OPM7.181205.001	none
 vendor/lib64/lib-rcsjni.so	vendor/lib64/lib-rcsjni.so	342fef09f1fe1e4fc0d831943766568e33b3cbacdb727c403a3b8e076d4c3da8	321080	ELF	ELF64	AArch64	Huawei official driver vendor.img; OPM7.181205.001	none
