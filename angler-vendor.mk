@@ -260,6 +260,8 @@ PRODUCT_PACKAGES += \
     libmmcamera2_pp_buf_mgr \
     libmmcamera2_pproc_modules \
     libmmcamera2_q3a_core \
+    libmmcamera2_sensor_debug \
+    libmmcamera2_sensor_modules \
     libmmcamera2_vpe_module \
     libmmcamera2_wnr_module \
     libmmcamera_cac2_lib \
