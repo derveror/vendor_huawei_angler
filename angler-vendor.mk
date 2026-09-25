@@ -270,6 +270,7 @@ PRODUCT_PACKAGES += \
     libmmcamera_eeprom_util \
     libmmcamera_eztune_module \
     libmmcamera_faceproc \
+    libmmcamera_imglib \
     libmmcamera_imx179_liteon \
     libmmcamera_imx179_sunny \
     libmmcamera_imx377 \
