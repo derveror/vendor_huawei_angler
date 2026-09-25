@@ -160,6 +160,7 @@ vendor/lib/libadm.so	vendor/lib/libadm.so	011d013139ca0aca673c436b9dd9ed77eb4b08
 vendor/lib/libadpcmdec.so	vendor/lib/libadpcmdec.so	d7b0608c008badb38baeab5b24a61301619c3e038b800f76d03cb5ee00280cc5	34236	ELF	ELF32	ARM	Huawei official driver vendor.img; OPM7.181205.001	none
 vendor/lib/libadreno_utils.so	vendor/lib/libadreno_utils.so	e8f316ea8b3bbbfa86659cec10130076d0011ef06a94d4c571356a702609c1ec	33020	ELF	ELF32	ARM	Huawei official driver vendor.img; OPM7.181205.001	none
 vendor/lib/libadsprpc.so	vendor/lib/libadsprpc.so	01902be7035e9cd79c81ae92aadc8cbd6dae41a39d29a4d155884b5b6e0e9e33	58880	ELF	ELF32	ARM	Huawei official driver vendor.img; OPM7.181205.001	none
+vendor/lib/libaudcal.so	vendor/lib/libaudcal.so	dd89d7ca6f8325594bfb3cb0e3c5371fb52044ad4b69ca6e6e4963b5af34bf2e	100600	ELF	ELF32	ARM	Google factory image exact; differs from Huawei driver package; local closure only; OPM7.181205.001	none
 vendor/lib/libaudioalsa.so	vendor/lib/libaudioalsa.so	5444a608ab90bf82352378c38f027a484260c4dd90b8a1a8d54493542ee8d425	24424	ELF	ELF32	ARM	Huawei official driver vendor.img; OPM7.181205.001	none
 vendor/lib/libbccQTI.so	vendor/lib/libbccQTI.so	519a27d3e86e751450f5e33f3dfda5b28a5f980d7e4809de841387cb32ed202a	16020	ELF	ELF32	ARM	Huawei official driver vendor.img; OPM7.181205.001	none
 vendor/lib/libc2d30-a3xx.so	vendor/lib/libc2d30-a3xx.so	111eb703e9a033e69a494c8ce25075704261a9999f4ec8f854e7577d9282dc41	712620	ELF	ELF32	ARM	Huawei official driver vendor.img; OPM7.181205.001	none
@@ -384,6 +385,7 @@ vendor/lib64/libacdbrtac.so	vendor/lib64/libacdbrtac.so	a8d1ee9106930eac00850601
 vendor/lib64/libadiertac.so	vendor/lib64/libadiertac.so	9e0bc1cc01a0fd996acc5592023dcd413f3e71974912aa55b1bfb00a2e7f7608	15376	ELF	ELF64	AArch64	Huawei official driver vendor.img; OPM7.181205.001	none
 vendor/lib64/libadreno_utils.so	vendor/lib64/libadreno_utils.so	89b0eb0c1792573e4a233143ddbb02c502a914cff76ad277fe35c3b2ecbae94c	35616	ELF	ELF64	AArch64	Huawei official driver vendor.img; OPM7.181205.001	none
 vendor/lib64/libadsprpc.so	vendor/lib64/libadsprpc.so	1728853ee6418dc87e112129961b5797ddb58e92826f34831905033f737bd27e	75488	ELF	ELF64	AArch64	Huawei official driver vendor.img; OPM7.181205.001	none
+vendor/lib64/libaudcal.so	vendor/lib64/libaudcal.so	1526254e0ec1fa1ad779bfe3a08247d30e28835e50d73ce91b4c3338f0d204a9	126072	ELF	ELF64	AArch64	Google factory image exact; differs from Huawei driver package; local closure only; OPM7.181205.001	none
 vendor/lib64/libaudioalsa.so	vendor/lib64/libaudioalsa.so	b354a5b621f4b2b32fc8968f4281047cb4f1df99c85940acb606b322ffc4f251	19064	ELF	ELF64	AArch64	Huawei official driver vendor.img; OPM7.181205.001	none
 vendor/lib64/libbccQTI.so	vendor/lib64/libbccQTI.so	ca68312d223a947bd0dae89f944a82f05774eb65d4237b560d06a28a1884f8d1	6576	ELF	ELF64	AArch64	Huawei official driver vendor.img; OPM7.181205.001	none
 vendor/lib64/libc2d30-a3xx.so	vendor/lib64/libc2d30-a3xx.so	fe2129846a90642ee76ebd7d774f019dafc7275164a43cb738d5f0e87b65cfd5	747032	ELF	ELF64	AArch64	Huawei official driver vendor.img; OPM7.181205.001	none

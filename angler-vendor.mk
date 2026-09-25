@@ -140,6 +140,7 @@ PRODUCT_PACKAGES += \
     libadiertac \
     libadreno_utils \
     libadsprpc \
+    libaudcal \
     libaudioalsa \
     libbccQTI \
     libc2d30-a3xx \
