@@ -89,6 +89,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/vendor/firmware/widevine.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b02 \
     vendor/huawei/angler/proprietary/vendor/firmware/widevine.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b03 \
     vendor/huawei/angler/proprietary/vendor/firmware/widevine.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.mdt \
+    vendor/huawei/angler/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_q3a_core.so \
     vendor/huawei/angler/proprietary/vendor/media/LMspeed_508.emd:$(TARGET_COPY_OUT_VENDOR)/media/LMspeed_508.emd \
     vendor/huawei/angler/proprietary/vendor/media/PFFprec_600.emd:$(TARGET_COPY_OUT_VENDOR)/media/PFFprec_600.emd \
     vendor/huawei/angler/proprietary/vendor/qcril.db:$(TARGET_COPY_OUT_VENDOR)/qcril.db \
@@ -169,7 +170,6 @@ PRODUCT_PACKAGES += \
     libmm-als \
     libmm-disp-apis \
     libmm-qdcm \
-    libmmcamera2_q3a_core \
     libmmcamera2_stats_algorithm \
     libnetmgr \
     libperipheral_client \
@@ -258,6 +258,7 @@ PRODUCT_PACKAGES += \
     libmmcamera2_is \
     libmmcamera2_pp_buf_mgr \
     libmmcamera2_pproc_modules \
+    libmmcamera2_q3a_core \
     libmmcamera2_vpe_module \
     libmmcamera2_wnr_module \
     libmmcamera_cac2_lib \
