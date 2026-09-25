@@ -133,7 +133,7 @@ vendor/lib/lib-imsdpl.so	vendor/lib/lib-imsdpl.so	0772f7bef8eee2f7ad650589ebe518
 vendor/lib/lib-imsqimf.so	vendor/lib/lib-imsqimf.so	cc184ee937a40b3d9c22b63627d8791467f413cf05c2f5669eb101c1b17865c5	1341004	ELF	ELF32	ARM	Huawei official driver vendor.img; OPM7.181205.001	none
 vendor/lib/lib-imsrcs.so	vendor/lib/lib-imsrcs.so	e84edadf6cb7b76acb75bbc317e5fb8341f62144ab745c2557d049f3f1661284	1214048	ELF	ELF32	ARM	Huawei official driver vendor.img; OPM7.181205.001	none
 vendor/lib/lib-imsrcscm.so	vendor/lib/lib-imsrcscm.so	853903eb1bbcd76db405d7dcc3eb9b25739f2f5d90cd4569bab3829c08b12884	124684	ELF	ELF32	ARM	Huawei official driver vendor.img; OPM7.181205.001	none
-vendor/lib/lib-imsrcscmclient.so	vendor/lib/lib-imsrcscmclient.so	689b7c1ce8ba5c671540323acb61b7741870881339c5fad1b0e2e3adcdd3ba29	83496	ELF	ELF32	ARM	Huawei official driver vendor.img; OPM7.181205.001	none
+vendor/lib/lib-imsrcscmclient.so	vendor/lib/lib-imsrcscmclient.so	2cefbf41e8bcc61e0dfa6d019705449f243b4d2de0f99f87a4598a523b3d27b0	83496	ELF	ELF32	ARM	Huawei official driver vendor.img; OPM7.181205.001	remove unused DT_NEEDED libart-compiler.so; zero imported-symbol overlap
 vendor/lib/lib-imsrcscmservice.so	vendor/lib/lib-imsrcscmservice.so	0f48df29fb21ef18fcefbd35081b4486fcc26ba7b659775238bf236c6ed0e06b	63016	ELF	ELF32	ARM	Huawei official driver vendor.img; OPM7.181205.001	none
 vendor/lib/lib-imss.so	vendor/lib/lib-imss.so	4ef475d2f0bc3421e2e14fb27548689afd3ad8ed3bb5fba6e237dcd29b10ff7e	21948	ELF	ELF32	ARM	Huawei official driver vendor.img; OPM7.181205.001	none
 vendor/lib/lib-imsxml.so	vendor/lib/lib-imsxml.so	3901e6964fcf158272e28336875c8b821fb0ac42ff9f98fe45eb3a8c071d37e1	589384	ELF	ELF32	ARM	Huawei official driver vendor.img; OPM7.181205.001	none
@@ -363,7 +363,7 @@ vendor/lib64/lib-imsdpl.so	vendor/lib64/lib-imsdpl.so	c2ec1e6cf53a01e9865c2801b9
 vendor/lib64/lib-imsqimf.so	vendor/lib64/lib-imsqimf.so	84112c611b509fcad67e77abaeacd91063bd906b8f796ba2dd22e0669fa06976	1816328	ELF	ELF64	AArch64	Huawei official driver vendor.img; OPM7.181205.001	none
 vendor/lib64/lib-imsrcs.so	vendor/lib64/lib-imsrcs.so	e12f0d48a66fee601e8d268b041137a4b937bd69efaa4258ed492b304b0419a2	1591128	ELF	ELF64	AArch64	Huawei official driver vendor.img; OPM7.181205.001	none
 vendor/lib64/lib-imsrcscm.so	vendor/lib64/lib-imsrcscm.so	910cfc05905357c5ebea87d34a6cc91ac886dbcecd9643023d67336de9feccf7	157944	ELF	ELF64	AArch64	Huawei official driver vendor.img; OPM7.181205.001	none
-vendor/lib64/lib-imsrcscmclient.so	vendor/lib64/lib-imsrcscmclient.so	d85f763b6b3f1645d2856d13724808d04ba2280525fcd68905a84d4ba2369abb	153296	ELF	ELF64	AArch64	Huawei official driver vendor.img; OPM7.181205.001	none
+vendor/lib64/lib-imsrcscmclient.so	vendor/lib64/lib-imsrcscmclient.so	84df77c6dd7c8e279068babbb3599d6d7cfa64d0494cde797a4829d8c1808d21	153296	ELF	ELF64	AArch64	Huawei official driver vendor.img; OPM7.181205.001	remove unused DT_NEEDED libart-compiler.so; zero imported-symbol overlap
 vendor/lib64/lib-imsrcscmservice.so	vendor/lib64/lib-imsrcscmservice.so	4fe08083b06f0d6f6992dae090536b6c937fc1e0acd3d326f149bf5e3d2b0f07	87760	ELF	ELF64	AArch64	Huawei official driver vendor.img; OPM7.181205.001	none
 vendor/lib64/lib-imss.so	vendor/lib64/lib-imss.so	846be38d86e822793889ac1cf24fa5b9451cec1571ae5538c203d66a64ad707a	17976	ELF	ELF64	AArch64	Huawei official driver vendor.img; OPM7.181205.001	none
 vendor/lib64/lib-imsxml.so	vendor/lib64/lib-imsxml.so	359970510e3889a885cd0e29da00818e1dd942c4d3441a8ce0713392c1345b0e	941784	ELF	ELF64	AArch64	Huawei official driver vendor.img; OPM7.181205.001	none
