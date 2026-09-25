@@ -5597,7 +5597,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libdl",
                 "liblog",
-                "libstdc++",
+                "libstdc++_vendor",
                 "libm",
                 "libc",
             ],
@@ -5622,7 +5622,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libc",
                 "libm",
-                "libstdc++",
+                "libstdc++_vendor",
                 "liblog",
             ],
         },
@@ -6077,7 +6077,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libmmcamera_faceproc.so",
             ],
             shared_libs: [
-                "libstdc++",
+                "libstdc++_vendor",
                 "libm",
                 "libc",
                 "libdl",
