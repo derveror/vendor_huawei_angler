@@ -5754,6 +5754,37 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libmmcamera2_imglib_modules",
+    owner: "huawei",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libmmcamera2_imglib_modules.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "liboemcamera",
+                "libmmcamera_imglib",
+                "libutils",
+                "libgui",
+                "libsensor",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libmmcamera2_is",
     owner: "huawei",
     strip: {

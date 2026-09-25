@@ -255,6 +255,7 @@ PRODUCT_PACKAGES += \
     libmmcamera2_cpp_module \
     libmmcamera2_frame_algorithm \
     libmmcamera2_iface_modules \
+    libmmcamera2_imglib_modules \
     libmmcamera2_is \
     libmmcamera2_pp_buf_mgr \
     libmmcamera2_pproc_modules \
