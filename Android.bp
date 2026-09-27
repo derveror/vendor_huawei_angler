@@ -2504,6 +2504,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libimsmedia_jni.so",
             ],
             shared_libs: [
+                "libsurface_legacy_shim",
                 "libnativehelper",
                 "liblog",
                 "libcutils",
@@ -2520,6 +2521,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libimsmedia_jni.so",
             ],
             shared_libs: [
+                "libsurface_legacy_shim",
                 "libnativehelper",
                 "liblog",
                 "libcutils",
