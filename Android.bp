@@ -2005,6 +2005,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libcne.so",
             ],
             shared_libs: [
+                "libcutils_shim",
                 "liblog",
                 "libbinder",
                 "libcutils",
@@ -2026,6 +2027,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libcne.so",
             ],
             shared_libs: [
+                "libcutils_shim",
                 "liblog",
                 "libbinder",
                 "libcutils",
@@ -8436,6 +8438,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/ATFWD-daemon",
             ],
             shared_libs: [
+                "libcutils_shim",
                 "liblog",
                 "libcutils",
                 "libutils",
