@@ -8371,6 +8371,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libril-qc-qmi-1.so",
             ],
             shared_libs: [
+                "libaudioclient_legacy_shim",
                 "libdsutils",
                 "liblog",
                 "libcutils",
