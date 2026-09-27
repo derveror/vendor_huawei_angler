@@ -646,6 +646,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/lib-imsSDP.so",
             ],
             shared_libs: [
+                "liblog",
                 "libcutils",
                 "lib-imsdpl",
                 "lib-rtpcommon",
@@ -660,6 +661,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/lib-imsSDP.so",
             ],
             shared_libs: [
+                "liblog",
                 "libcutils",
                 "lib-imsdpl",
                 "lib-rtpcommon",
@@ -963,6 +965,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/lib-imss.so",
             ],
             shared_libs: [
+                "liblog",
                 "libqmiservices",
                 "libqmi_cci",
                 "libcutils",
@@ -978,6 +981,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/lib-imss.so",
             ],
             shared_libs: [
+                "liblog",
                 "libqmiservices",
                 "libqmi_cci",
                 "libcutils",
@@ -1239,6 +1243,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/lib-rtpdaemoninterface.so",
             ],
             shared_libs: [
+                "liblog",
                 "libcutils",
                 "lib-imsdpl",
                 "lib-rtpcommon",
@@ -1253,6 +1258,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/lib-rtpdaemoninterface.so",
             ],
             shared_libs: [
+                "liblog",
                 "libcutils",
                 "lib-imsdpl",
                 "lib-rtpcommon",
@@ -1415,6 +1421,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libQSEEComAPI.so",
             ],
             shared_libs: [
+                "liblog",
                 "libc",
                 "libcutils",
                 "libutils",
@@ -1428,6 +1435,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libQSEEComAPI.so",
             ],
             shared_libs: [
+                "liblog",
                 "libc",
                 "libcutils",
                 "libutils",
@@ -1997,6 +2005,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libcne.so",
             ],
             shared_libs: [
+                "liblog",
                 "libbinder",
                 "libcutils",
                 "libdiag",
@@ -2017,6 +2026,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libcne.so",
             ],
             shared_libs: [
+                "liblog",
                 "libbinder",
                 "libcutils",
                 "libdiag",
@@ -2050,6 +2060,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libcneapiclient.so",
             ],
             shared_libs: [
+                "liblog",
                 "libbinder",
                 "libcutils",
                 "libnetutils",
@@ -2066,6 +2077,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libcneapiclient.so",
             ],
             shared_libs: [
+                "liblog",
                 "libbinder",
                 "libcutils",
                 "libnetutils",
@@ -3127,6 +3139,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libmmcamera2_stats_algorithm.so",
             ],
             shared_libs: [
+                "liblog",
                 "libdl",
                 "libcutils",
                 "libc++",
@@ -3139,6 +3152,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so",
             ],
             shared_libs: [
+                "liblog",
                 "libdl",
                 "libcutils",
                 "libc++",
@@ -4187,6 +4201,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libvoice-svc.so",
             ],
             shared_libs: [
+                "libprocessgroup",
                 "liblog",
                 "libutils",
                 "libcutils",
@@ -4201,6 +4216,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libvoice-svc.so",
             ],
             shared_libs: [
+                "libprocessgroup",
                 "liblog",
                 "libutils",
                 "libcutils",
@@ -5712,6 +5728,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libmmcamera2_frame_algorithm.so",
             ],
             shared_libs: [
+                "liblog",
                 "libdl",
                 "libcutils",
                 "libc++",
@@ -5796,6 +5813,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libmmcamera2_is.so",
             ],
             shared_libs: [
+                "liblog",
                 "libdl",
                 "libcutils",
                 "libc++",
@@ -5910,6 +5928,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libmmcamera2_q3a_core.so",
             ],
             shared_libs: [
+                "liblog",
                 "libdl",
                 "libcutils",
                 "libmmcamera2_stats_algorithm",
@@ -6078,6 +6097,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libmmcamera_cac2_lib.so",
             ],
             shared_libs: [
+                "liblog",
                 "libcutils",
                 "libdl",
                 "libc++",
@@ -7342,6 +7362,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libmmcamera_pdaf.so",
             ],
             shared_libs: [
+                "liblog",
                 "libcutils",
                 "libutils",
                 "libc++",
@@ -7368,6 +7389,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libmmcamera_pdafcamif.so",
             ],
             shared_libs: [
+                "liblog",
                 "libcutils",
                 "libutils",
                 "libc++",
@@ -7473,6 +7495,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so",
             ],
             shared_libs: [
+                "liblog",
                 "libdl",
                 "libcutils",
                 "libc++",
@@ -7912,6 +7935,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/lib_fpc_tac_shared.so",
             ],
             shared_libs: [
+                "liblog",
                 "libQSEEComAPI",
                 "libc++",
                 "libc",
@@ -8106,6 +8130,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libizat_core.so",
             ],
             shared_libs: [
+                "liblog",
                 "libutils",
                 "libcutils",
                 "libloc_core",
@@ -8135,6 +8160,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/liblbs_core.so",
             ],
             shared_libs: [
+                "liblog",
                 "libutils",
                 "libcutils",
                 "libizat_core",
@@ -8165,6 +8191,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/liblowi_client.so",
             ],
             shared_libs: [
+                "liblog",
                 "libutils",
                 "libcutils",
                 "libc++",
@@ -8191,6 +8218,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/liblowi_wifihal.so",
             ],
             shared_libs: [
+                "liblog",
                 "liblowi_client",
                 "libcutils",
                 "libutils",
@@ -8309,6 +8337,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libquipc_os_api.so",
             ],
             shared_libs: [
+                "liblog",
                 "libcutils",
                 "libdiag",
                 "libc++",
@@ -8463,6 +8492,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/cnd",
             ],
             shared_libs: [
+                "liblog",
                 "libdiag",
                 "libcutils",
                 "libqmi",
@@ -8659,6 +8689,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/imsdatadaemon",
             ],
             shared_libs: [
+                "liblog",
                 "libcutils",
                 "libqmiservices",
                 "libqmi_csi",
@@ -8690,6 +8721,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/imsqmidaemon",
             ],
             shared_libs: [
+                "liblog",
                 "libqmiservices",
                 "libqmi_cci",
                 "libidl",
@@ -8744,6 +8776,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/loc_launcher",
             ],
             shared_libs: [
+                "liblog",
                 "libutils",
                 "libcutils",
                 "libgps.utils",
@@ -9017,6 +9050,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/port-bridge",
             ],
             shared_libs: [
+                "liblog",
                 "libutils",
                 "libcutils",
                 "libc++",
