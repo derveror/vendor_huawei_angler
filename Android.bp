@@ -687,6 +687,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/lib-imsdpl.so",
             ],
             shared_libs: [
+                "liblog",
                 "libdiag",
                 "libqmi",
                 "libqcci_legacy",
@@ -709,6 +710,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/lib-imsdpl.so",
             ],
             shared_libs: [
+                "liblog",
                 "libdiag",
                 "libqmi",
                 "libqcci_legacy",
