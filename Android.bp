@@ -2955,6 +2955,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libmm-abl.so",
             ],
             shared_libs: [
+                "libpowermanager_legacy_shim",
                 "liblog",
                 "libmm-abl-oem",
                 "libcutils",
@@ -2975,6 +2976,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libmm-abl.so",
             ],
             shared_libs: [
+                "libpowermanager_legacy_shim",
                 "liblog",
                 "libmm-abl-oem",
                 "libcutils",
