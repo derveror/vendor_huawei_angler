@@ -7829,6 +7829,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/librs.rnr_process.so",
             ],
             shared_libs: [
+                "librs_legacy_math_shim",
                 "libcompiler_rt",
                 "libRSDriver_adreno",
                 "libm",
