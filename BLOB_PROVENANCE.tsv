@@ -28,7 +28,7 @@ vendor/bin/qseecomd	vendor/bin/qseecomd	37d25238f00591e2d5664b323824789a953f2983
 vendor/bin/qti	vendor/bin/qti	560234dc0dd23b2c02dca010838b09739fcc378b5d9a887e4641ded08b485650	78144	ELF	ELF64	AArch64	Huawei official driver vendor.img; OPM7.181205.001	none
 vendor/bin/radish	vendor/bin/radish	b71b26c1af8d492486c31d2b922ce66f01f504b147584fe3b5dd8afbd9dd2d8d	51088	ELF	ELF64	AArch64	Huawei official driver vendor.img; OPM7.181205.001	none
 vendor/bin/rmt_storage	vendor/bin/rmt_storage	09f2d970e9775722ad23cac8e179fa00d4e38c0c52a75121fd5b5cd58da821ea	28752	ELF	ELF64	AArch64	Huawei official driver vendor.img; OPM7.181205.001	none
-vendor/bin/slim_daemon	vendor/bin/slim_daemon	f33e2ffa43dad5526c953a62b66a6320262c397b6b959415f2e0850df17ab4b2	255456	ELF	ELF64	AArch64	Huawei official driver vendor.img; OPM7.181205.001	none
+vendor/bin/slim_daemon	vendor/bin/slim_daemon	1e799b4c6741222e85195ce16e0e4a5de5034a5fb39d5714694dff9346281aa1	273969	ELF	ELF64	AArch64	Huawei official driver vendor.img; OPM7.181205.001	forward legacy SensorManager event queue with empty attribution tag
 vendor/bin/sound_trigger_test	vendor/bin/sound_trigger_test	c483df91f3f7e9f6161a87727296fadfeaa33ccdb0a3b71496e09d3e43377bd6	11040	ELF	ELF64	AArch64	Huawei official driver vendor.img; OPM7.181205.001	none
 system/bin/ssr_setup	vendor/bin/ssr_setup	96eeb426fe8723fcf3e43aaf5e00b1b7a1f75adb100d0d17666305b14be618dc	11208	ELF	ELF64	AArch64	Qualcomm official driver explicit path; OPM7.181205.001	none
 system/bin/subsystem_ramdump	vendor/bin/subsystem_ramdump	08bcd6f141416e8db6eb34c38d6060047f5d5b286ff14e414651f83b8609e65f	27848	ELF	ELF64	AArch64	Qualcomm official driver explicit path; OPM7.181205.001	none
@@ -311,7 +311,7 @@ vendor/lib/libmmjpeg.so	vendor/lib/libmmjpeg.so	2a1b8458abdffa8120945d2d259b72e9
 vendor/lib/libmmqjpeg_codec.so	vendor/lib/libmmqjpeg_codec.so	d6443283ad6ca978f2cf71eb79c723afc2f6f13ec74c7ec182b3bbcff7fd8953	158904	ELF	ELF32	ARM	Huawei official driver vendor.img; OPM7.181205.001	none
 vendor/lib/libmmqjpegdma.so	vendor/lib/libmmqjpegdma.so	e6e9feffff7bfc13612a304e08960d22fa545f3767e14f97f16b3b0bf7f39d46	66604	ELF	ELF32	ARM	Huawei official driver vendor.img; OPM7.181205.001	none
 vendor/lib/libnetmgr.so	vendor/lib/libnetmgr.so	d082ff072d249d482b5a4b294aa549d148f866634ce59a4fb37d26e5c4fe7349	50620	ELF	ELF32	ARM	Huawei official driver vendor.img; OPM7.181205.001	retarget audited legacy ARM EABI imports from LIBC_PRIVATE to the ABI-identical LIBC_N aliases exported by current Bionic
-vendor/lib/liboemcamera.so	vendor/lib/liboemcamera.so	77983655cd0beb733363804378c68a70c84d4e290cddadbbed044f80aca2776e	133444	ELF	ELF32	ARM	Huawei official driver vendor.img; OPM7.181205.001	none
+vendor/lib/liboemcamera.so	vendor/lib/liboemcamera.so	ec1383520359a791ba0bb7983c04e42ac69e7de077232760f391b5a46b19f140	149045	ELF	ELF32	ARM	Huawei official driver vendor.img; OPM7.181205.001	forward legacy SensorManager event queue with empty attribution tag
 vendor/lib/liboemcrypto.so	vendor/lib/liboemcrypto.so	af172762709e55e762114d26d3f992cbf6e6788951ded306567c9bc788feb29b	71264	ELF	ELF32	ARM	Huawei official driver vendor.img; OPM7.181205.001	none
 vendor/lib/libperipheral_client.so	vendor/lib/libperipheral_client.so	0bf8d358e307d74be812bedc2f3032d172f55da93c0650241274707bc6b38f74	46152	ELF	ELF32	ARM	Huawei official driver vendor.img; OPM7.181205.001	none
 vendor/lib/libqcci_legacy.so	vendor/lib/libqcci_legacy.so	5de2720270b4e8b839dc2075d1e01b2cc5b4ac2736fd1ba346a91c3124b073df	20256	ELF	ELF32	ARM	Huawei official driver vendor.img; OPM7.181205.001	none
