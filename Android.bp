@@ -4332,7 +4332,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libcutils",
                 "liblog",
-                "libprotobuf-cpp-lite",
+                "libprotobuf-cpp-lite-v28",
                 "libstagefright_foundation",
                 "libutils",
                 "libc++",
@@ -4348,7 +4348,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libcutils",
                 "liblog",
-                "libprotobuf-cpp-lite",
+                "libprotobuf-cpp-lite-v28",
                 "libstagefright_foundation",
                 "libutils",
                 "libc++",
