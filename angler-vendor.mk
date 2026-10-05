@@ -16,6 +16,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/vendor/etc/acdbdata/angler/Angler_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/angler/Angler_Headset_cal.acdb \
     vendor/huawei/angler/proprietary/vendor/etc/acdbdata/angler/Angler_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/angler/Angler_Speaker_cal.acdb \
     vendor/huawei/angler/proprietary/vendor/etc/cne/profile.txt:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profile.txt \
+    vendor/huawei/angler/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
+    vendor/huawei/angler/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
+    vendor/huawei/angler/proprietary/vendor/etc/data/qmi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/qmi_config.xml \
     vendor/huawei/angler/proprietary/vendor/etc/diag/Angler_Radio-general.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/diag/Angler_Radio-general.cfg \
     vendor/huawei/angler/proprietary/vendor/etc/flp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/flp.conf \
     vendor/huawei/angler/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
@@ -171,7 +174,6 @@ PRODUCT_PACKAGES += \
     libmm-qdcm \
     libmmcamera2_stats_algorithm \
     libnetmgr \
-    libperipheral_client \
     libqcci_legacy \
     libqdi \
     libqmi \
@@ -293,23 +295,30 @@ PRODUCT_PACKAGES += \
     libmmcamera_isp_color_xform_encoder46 \
     libmmcamera_isp_color_xform_video46 \
     libmmcamera_isp_color_xform_viewfinder46 \
+    libmmcamera_isp_cs_stats46 \
     libmmcamera_isp_demosaic44 \
     libmmcamera_isp_demux40 \
     libmmcamera_isp_fovcrop_encoder46 \
     libmmcamera_isp_fovcrop_video46 \
     libmmcamera_isp_fovcrop_viewfinder46 \
     libmmcamera_isp_gamma44 \
+    libmmcamera_isp_gic46 \
+    libmmcamera_isp_gtm46 \
     libmmcamera_isp_hdr46 \
     libmmcamera_isp_hdr_be_stats46 \
+    libmmcamera_isp_ihist_stats46 \
     libmmcamera_isp_linearization40 \
     libmmcamera_isp_ltm44 \
     libmmcamera_isp_mce40 \
     libmmcamera_isp_mesh_rolloff44 \
+    libmmcamera_isp_pedestal_correct46 \
+    libmmcamera_isp_rs_stats46 \
     libmmcamera_isp_scaler_encoder46 \
     libmmcamera_isp_scaler_video46 \
     libmmcamera_isp_scaler_viewfinder46 \
     libmmcamera_isp_sce40 \
     libmmcamera_isp_sub_module \
+    libmmcamera_isp_wb46 \
     libmmcamera_m24c64s_eeprom \
     libmmcamera_pdaf \
     libmmcamera_pdafcamif \

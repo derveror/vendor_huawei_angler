@@ -1,6 +1,6 @@
 # Proprietary files for Google Nexus 6P (angler)
 
-This tree is generated from official Google OPM7.181205.001 inputs. Every admitted source file is byte-identical to the factory image. Most are covered by the official Huawei vendor-image package or an explicit Qualcomm extraction path. Eight closure files (two libaudcal and six camera libraries) are factory-only because the same paths in the Huawei package contain different bytes; their provenance is recorded explicitly. The ISP module is regenerated from the exact stock input with a scoped Android P mutex/FORTIFY instruction fix whose upstream provenance is pinned in the metadata.
+This tree is generated from official Google OPM7.181205.001 inputs. Every admitted source file is byte-identical to the factory image. Most are covered by the official Huawei vendor-image package or an explicit Qualcomm extraction path. Fifteen closure files (two libaudcal and thirteen camera libraries) are factory-only because the same paths in the Huawei package contain different bytes; their provenance is recorded explicitly. The ISP module is regenerated from the exact stock input with a scoped Android P mutex/FORTIFY instruction fix whose upstream provenance is pinned in the metadata. The stock camera statistics and OEM modules are regenerated with scoped sensor ABI, sensor-thread scheduling, and AF message-lifetime fixes required by Android 15.
 
 Huawei archive SHA-256: `2eb9a77de059739d33c7fad07e34034f03a93d70eea39460bb0d9278e5763053`.
 

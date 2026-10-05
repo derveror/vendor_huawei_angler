@@ -4,6 +4,7 @@
 
 soong_namespace {
     imports: [
+        "hardware/qcom/display",
         "vendor/qcom/opensource/dataservices",
     ],
 }
@@ -3219,51 +3220,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libperipheral_client",
-    owner: "huawei",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libperipheral_client.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libutils",
-                "libbinder",
-                "libmdmdetect",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libperipheral_client.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libutils",
-                "libbinder",
-                "libmdmdetect",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libqcci_legacy",
     owner: "huawei",
     strip: {
@@ -6024,7 +5980,7 @@ cc_prebuilt_library_shared {
                 "libmmcamera2_is",
                 "libmmcamera2_stats_algorithm",
                 "libmmcamera2_q3a_core",
-                "libandroid",
+                "libsensorndkbridge",
                 "libutils",
                 "libc++",
                 "libc",
@@ -6857,6 +6813,34 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libmmcamera_isp_cs_stats46",
+    owner: "huawei",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libmmcamera_isp_cs_stats46.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "liboemcamera",
+                "libmmcamera_isp_sub_module",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libmmcamera_isp_demosaic44",
     owner: "huawei",
     strip: {
@@ -7022,6 +7006,62 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libmmcamera_isp_gic46",
+    owner: "huawei",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libmmcamera_isp_gic46.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "liboemcamera",
+                "libmmcamera_isp_sub_module",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmmcamera_isp_gtm46",
+    owner: "huawei",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libmmcamera_isp_gtm46.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "liboemcamera",
+                "libmmcamera_isp_sub_module",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libmmcamera_isp_hdr46",
     owner: "huawei",
     strip: {
@@ -7059,6 +7099,34 @@ cc_prebuilt_library_shared {
         android_arm: {
             srcs: [
                 "proprietary/vendor/lib/libmmcamera_isp_hdr_be_stats46.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "liboemcamera",
+                "libmmcamera_isp_sub_module",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmmcamera_isp_ihist_stats46",
+    owner: "huawei",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libmmcamera_isp_ihist_stats46.so",
             ],
             shared_libs: [
                 "liblog",
@@ -7171,6 +7239,62 @@ cc_prebuilt_library_shared {
         android_arm: {
             srcs: [
                 "proprietary/vendor/lib/libmmcamera_isp_mesh_rolloff44.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "liboemcamera",
+                "libmmcamera_isp_sub_module",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmmcamera_isp_pedestal_correct46",
+    owner: "huawei",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libmmcamera_isp_pedestal_correct46.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "liboemcamera",
+                "libmmcamera_isp_sub_module",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmmcamera_isp_rs_stats46",
+    owner: "huawei",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libmmcamera_isp_rs_stats46.so",
             ],
             shared_libs: [
                 "liblog",
@@ -7316,6 +7440,34 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libcutils",
                 "liboemcamera",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmmcamera_isp_wb46",
+    owner: "huawei",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libmmcamera_isp_wb46.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "liboemcamera",
+                "libmmcamera_isp_sub_module",
                 "libc++",
                 "libc",
                 "libm",
@@ -9026,6 +9178,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/pm-service",
             ],
             shared_libs: [
+                "libangler_peripheral_refbase_compat",
                 "liblog",
                 "libcutils",
                 "libutils",
